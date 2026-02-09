@@ -1,0 +1,40 @@
+# Machine-specific
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Raw uploads
+user-uploads/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+
+# Caches
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Personal
+personal-notes/
+scratch/
+
+# DSP-specific
+*.bin
+*.elf
+*.hex
+build/
+measurements/raw/
+*.wav
+*.flac

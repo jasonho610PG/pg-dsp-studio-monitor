@@ -1,0 +1,28 @@
+---
+system: pg-dsp-studio-monitor
+type: L2
+pattern: Knowledge Twin
+team: DSP
+members:
+  - Ivan
+  - Derek
+  - Jason
+description: DSP development for Studio Monitor Bass Correction (EQ10, BassGuard, QuickTune)
+
+integration:
+  legacy-system: /Users/jasonho610/Desktop/studio-monitor
+  strategy: Read-only references, knowledge extraction, testbed reuse
+
+needs-from-platform:
+  - dev-context-engineering
+  - dev-governance
+  - dev-memory-protocol
+  - dev-doc-maintenance
+  - dev-context-loader
+
+ip-protection:
+  delivery: binary-only
+  restrictions: Algorithm implementation remains proprietary
+
+created: 2026-02-09
+version: "1.0"
